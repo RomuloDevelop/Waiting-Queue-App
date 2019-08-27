@@ -17,6 +17,12 @@ table {
     text-align: center;
 }
 
+.ticket-colum {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
 .ticket-actual {
     background-color: #282828;
 }

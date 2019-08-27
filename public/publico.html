@@ -16,40 +16,36 @@
 
 <body>
 
-    <table>
-        <tr>
-            <td valign="middle" class="ticket-actual">
-                <span id="lblTicket1" class="ticket-actual-numero">Waiting...</span>
-                <br>
-                <span id="lblEscritorio1" class="ticket-actual-escritorio">Waiting Office...</span>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>
-                            <span id="lblTicket2" class="ticket-secundario">Waiting...</span>
-                            <br>
-                            <span id="lblEscritorio2">Waiting Office...</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span id="lblTicket3" class="ticket-secundario">Waiting...</span>
-                            <br>
-                            <span id="lblEscritorio3">Waiting Office...</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span id="lblTicket4" class="ticket-secundario">Waiting...</span>
-                            <br>
-                            <span id="lblEscritorio4">Waiting Office...</span>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <div class="row w-100 h-100 text-center font-weight-light ml-0">
+        <div class="col-8 ticket-actual ticket-colum">
+            <span id="lblTicket1" class="ticket-actual-numero">Waiting...</span>
+            <br>
+            <span id="lblEscritorio1" class="ticket-actual-escritorio">Waiting Office...</span>
+        </div>
+        <div class="col-4 text-center">
+            <div class ="row" style="height: 30%">
+                <div class="col-12 ticket-colum">
+                    <span id="lblTicket2" class="ticket-secundario">Waiting...</span>
+                    <br>
+                    <span id="lblEscritorio2">Waiting Office...</span>
+                </div>
+            </div>
+            <div class ="row"  style="height: 30%">
+                <div class="col-12 ticket-colum">
+                    <span id="lblTicket3" class="ticket-secundario">Waiting...</span>
+                    <br>
+                    <span id="lblEscritorio3">Waiting Office...</span>
+                </div>
+            </div>
+            <div class ="row" style="height: 30%">
+                <div class="col-12 ticket-colum">
+                    <span id="lblTicket4" class="ticket-secundario">Waiting...</span>
+                    <br>
+                    <span id="lblEscritorio4">Waiting Office...</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/libs/jquery.min.js"></script>
     <script src="socket.io/socket.io.js"></script>
